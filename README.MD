@@ -17,7 +17,7 @@ Evento exclusivo e gratuito, promovido pela OneBitCode para ensino de tecnologia
 <br>
 
 <p align="center">
-  <img alt="Calculadora de Gorgetas" src=".github/preview.png" width="100%">
+  <img alt="Calculadora de Gorgetas" src=".github/Preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -34,7 +34,7 @@ Este Projeto foi criado atraves do Programa Start na Programação da OneBitCode
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK]
+Você pode visualizar o layout do projeto através [DESSE LINK](https://calculadoragorgetas.netlify.app/)
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
