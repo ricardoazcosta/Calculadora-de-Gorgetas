@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Gorjetas</title>
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <h1 class="title">Calculadora de Gorjetas</h1>
+        </div>
+        <div>
+            <form class="tipsForm" id="tipsForm">
+                <label for="bill">
+                    <p>Valor da Conta</p>
+                </label>
+                <p>
+                    R$ <input type="number" placeholder="0" name="bill" id="bill" class="formInput" required>
+                </p>
+                <label for="serviceQuality">
+                    <p>Satisfação do serviço</p>
+                </label>
+                <p>
+                    <select name="serviceQuality" id="serviceQuality" class="formSelect" required>
+                        <option disabled selected value="0">Escolha uma Opção</option>
+                        <option value="0.3">30% - Incrivel</option>
+                        <option value="0.2">20% - Bom</option>
+                        <option value="0.15">15% - Aceitável</option>
+                        <option value="0.1">10% - Ruim</option>
+                        <option value="0.05">05% - Pessimo</option>
+                    </select>
+                </p>
+                <label for="people">
+                    <p>Quantas Pessoa(s) vão dividir a conta?</p>
+                </label>
+                <p>
+                    <input type="number" placeholder="0" name="people" id="people" class="formInput" required>
+                </p>
+                <button class="formSubmit" type="submit">Calcular</button>
+                <img src="./assets/hand-coins-svgrepo-com.svg" alt="" srcset="">
+
+            </form>
+        </div>
+        <div id="totaltip">
+            Gorgeta total
+            R$<span id="tip">0.00</span>
+            <span id="each">cada</span>
+        </div>
+    </div>
+
+    <ul class="socialIcons">
+        <li class="linkedin"><a href="https://www.linkedin.com/in/ricardo-alexandre-costa1985/" target="_blank"><i
+                    class="fa fa-fw fa-linkedin"></i>Linkedin</a></li>
+        <li class="github"><a href="https://github.com/ricardoazcosta" target="_blank"><i
+                    class="fa fa-fw fa-github"></i>GitHub</a></li>
+    </ul>
+    <footer>Desenvolvido por <span>Ricardo Costa</span></footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
